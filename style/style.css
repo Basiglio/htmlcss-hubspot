@@ -22,7 +22,7 @@
 /* HEADER TOP */
 /* LEFT SIDE */
 .header_top {
-  background-color: lightgrey;
+  background-color: #f3f4f1;
   border-bottom: 2px solid black;
   line-height: 90px;
   position: relative;
@@ -32,11 +32,33 @@
 }
 .fas.fa-chevron-down{
   border-right: 1px solid black;
+  padding-right: 30px;
+  margin-right: 30px;
 }
 /* RIGHT SIDE*/
- #scrolbar_right_side {
+ #scrollbar_right_side {
   position: absolute;
   right: 10%;
+}
+.fa-search {
+  color: #01b1b1;
+  margin-right: 30px;
+}
+#button_submit {
+  padding: 10px;
+  border-color: #fd7b5a;
+  font-size: 18px;
+  color: #fd7b5a;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+#button_GHSP{
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fd7b5a;
+  border: none;
 }
 
 .header_mid {
