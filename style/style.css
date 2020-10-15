@@ -106,7 +106,7 @@ span .fas.fa-chevron-down{
   background-size: cover;
 }
 div.text_jumbo{
-  width: 25%;
+  width: 35%;
   padding-left: 30px;
   padding-top: 50px;
 }
@@ -114,8 +114,17 @@ div.text_jumbo h1, p, input, h6 {
   margin-top: 30px;
 }
 div.text_jumbo :first-child{
-  color: red;
+  font-size: 50px;
 }
+div.text_jumbo input{
+  font-size: 20px;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fd7b5a;
+  border: none;
+}
+
 
 .header_bot {
   background-color: #5edfd9;
