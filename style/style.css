@@ -10,8 +10,10 @@
   clear: both;
   display: table;
 }
-
 /* HEADER */
+header {
+background-color: yellow;
+}
 .header_top, .header_mid, .header_bot {
   width: 100%;
   height: 100px;
@@ -29,12 +31,15 @@
   width: 100%;
   height: 695px;
   background-image: url("../img/jumbotron.png");
+  background-position: right;
+  background-repeat:no-repeat;
   background-size: cover;
 }
 /* MAIN */
 /* SECTION DEFAULT SETTINGS */
 section {
   background-color: yellow;
+  height: 666px;
 }
 /* ORIZONTAL SECTION */
 section.orizontal_div div {
@@ -51,10 +56,10 @@ section.orizontal_div div {
 /* VERTICAL SECTION */
 
 section.vertical_div div {
-  width: 333px;
-  height: 500px;
-  display: inline-block;
+  width: 20%;
+  height: 666px;
   margin-left: 10%;
+  float: left;
 }
 .vertical_div .div1 {
   background-color: tomato;
@@ -69,5 +74,12 @@ section.vertical_div div {
 .blue_div {
   width: 100%;
   height: 695px;
-  background-color: tomato;
+  background-color: blue;
 }
+/* WHITE DIV */
+.white_div {
+  width: 100%;
+  height: 695px;
+  background-color: white;
+}
+/* FOOTER */
