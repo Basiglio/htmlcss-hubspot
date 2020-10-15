@@ -10,15 +10,28 @@
   clear: both;
   display: table;
 }
+/* MARGIN SETTINGS */
 .margin {
   margin-left: 10%;
   margin-right: 10%;
+}
+/* LINK SETTINGS */
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+}
+/* CURSOR SETTINGS */
+.pointer {
+  cursor: pointer;
 }
 /* HEADER */
 .header_top, .header_mid, .header_bot {
   width: 100%;
   height: 90px;
-}
+  }
 /* HEADER TOP */
 /* LEFT SIDE */
 .header_top {
@@ -61,7 +74,6 @@ span .fas.fa-chevron-down{
   border: none;
 }
 /* HEADER MID */
-
 .header_mid {
   background-color: white;
   line-height: 90px;
@@ -70,6 +82,7 @@ span .fas.fa-chevron-down{
 /* LEFT SIDE */
 .header_mid img {
   padding-left: 30px;
+  padding-top: 30px;
 }
 .header_mid ul, li{
   display: inline-block;
@@ -77,15 +90,13 @@ span .fas.fa-chevron-down{
 .header_mid ul {
   position: absolute;
   right: 10%;
+  cursor: pointer;
 }
-.header_mid li, i {
+.header_mid li, i{
   margin-left: 30px;
   font-size: 20px;
 }
-
-.header_bot {
-  background-color: black;
-}
+/* JUMBOTRON */
 .header_jumbo {
   width: 100%;
   height: 695px;
@@ -93,6 +104,21 @@ span .fas.fa-chevron-down{
   background-position: right;
   background-repeat:no-repeat;
   background-size: cover;
+}
+div.text_jumbo{
+  width: 25%;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+div.text_jumbo h1, p, input, h6 {
+  margin-top: 30px;
+}
+div.text_jumbo :first-child{
+  color: red;
+}
+
+.header_bot {
+  background-color: #5edfd9;
 }
 /* MAIN */
 /* SECTION DEFAULT SETTINGS */
