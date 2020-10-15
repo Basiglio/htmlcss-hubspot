@@ -112,7 +112,7 @@ div.text_jumbo{
   padding-left: 30px;
   padding-top: 50px;
 }
-div.text_jumbo h1, p, input, h6 {
+div.text_jumbo * {
   margin-top: 30px;
 }
 div.text_jumbo :first-child{
@@ -139,8 +139,8 @@ section {
   height: 1000px;
 }
 /* ORIZONTAL SECTION */
-section.orizontal_div div {
-  width: 80%;
+section.orizontal_div .div1 {
+  width: 1300px;
   height: 500px;
 }
 /* ORIZONTAL DIV NUMBER 1 */
@@ -157,16 +157,66 @@ section.orizontal_div div {
 }
 .div_1_text {
   text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
 }
-
-
-
+.div_1_text h2 {
+  font-size: 40px;
+  padding-bottom: 60px;
+}
+.div_1_text p {
+  font-size: 20px;
+}
+/* ORIZONTAL DIV NUMBER 2 */
+section.orizontal_div .div2 {
+  height: 300px;
+}
 .orizontal_div .div2 {
-  background-color: black;
+  background-color: white;
+  border-radius: 2px;
+  position: relative;
 }
+.div_left img {
+  width: 20%;
+}
+.learn_more {
+  font-size: 10px;
+  color: white;
+  padding: 20px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: #fd7b5a;
+  border: none;
+  cursor: pointer;
+}
+.div_left {
+  width: 25%;
+  float: left;
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+.div_right {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.div_right h3{
+  padding-bottom: 40px;
+}
+.div_right h4 {
+  padding-top: 30px
+}
+
+
+
+
 /* VERTICAL SECTION */
 
-section.vertical_div div {
+/* section.vertical_div div {
   width: 200px;
   height: 666px;
   float: left;
@@ -181,15 +231,15 @@ section.vertical_div div {
   background-color: tomato;
 }
 /* BLUE DIV */
-.blue_div {
+/* .blue_div {
   width: 100%;
   height: 695px;
   background-color: blue;
 }
 /* WHITE DIV */
-.white_div {
+/* .white_div {
   width: 100%;
   height: 695px;
-  background-color: white;
+  background-color: white; */
 }
 /* FOOTER */
