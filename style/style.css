@@ -12,6 +12,7 @@
 }
 .margin {
   margin-left: 10%;
+  margin-right: 10%;
 }
 /* HEADER */
 .header_top, .header_mid, .header_bot {
@@ -19,16 +20,25 @@
   height: 90px;
 }
 /* HEADER TOP */
+/* LEFT SIDE */
 .header_top {
   background-color: lightgrey;
   border-bottom: 2px solid black;
+  line-height: 90px;
+  position: relative;
 }
 .scrollbar h3{
   display: inline-block;
 }
-.scrollbar :first-child {
+.fas.fa-chevron-down{
   border-right: 1px solid black;
 }
+/* RIGHT SIDE*/
+ #scrolbar_right_side {
+  position: absolute;
+  right: 10%;
+}
+
 .header_mid {
   background-color: white;
 }
@@ -63,7 +73,7 @@ section.orizontal_div div {
 /* VERTICAL SECTION */
 
 section.vertical_div div {
-  width: 20%;
+  width: 200px;
   height: 666px;
   float: left;
 }
