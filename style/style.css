@@ -10,19 +10,27 @@
   clear: both;
   display: table;
 }
-/* HEADER */
-header {
-background-color: yellow;
+.margin {
+  margin-left: 10%;
 }
+/* HEADER */
 .header_top, .header_mid, .header_bot {
   width: 100%;
-  height: 100px;
+  height: 90px;
 }
+/* HEADER TOP */
 .header_top {
-  background-color: black;
+  background-color: lightgrey;
+  border-bottom: 2px solid black;
+}
+.scrollbar h3{
+  display: inline-block;
+}
+.scrollbar :first-child {
+  border-right: 1px solid black;
 }
 .header_mid {
-  background-color: tomato;
+  background-color: white;
 }
 .header_bot {
   background-color: black;
@@ -45,7 +53,6 @@ section {
 section.orizontal_div div {
   width: 80%;
   height: 333px;
-  margin-left: 10%;
 }
 .orizontal_div .div1 {
   background-color: tomato;
@@ -58,7 +65,6 @@ section.orizontal_div div {
 section.vertical_div div {
   width: 20%;
   height: 666px;
-  margin-left: 10%;
   float: left;
 }
 .vertical_div .div1 {
