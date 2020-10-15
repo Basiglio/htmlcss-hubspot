@@ -30,7 +30,7 @@
 .scrollbar h3{
   display: inline-block;
 }
-.fas.fa-chevron-down{
+span .fas.fa-chevron-down{
   border-right: 1px solid black;
   padding-right: 30px;
   margin-right: 30px;
@@ -60,10 +60,29 @@
   background-color: #fd7b5a;
   border: none;
 }
+/* HEADER MID */
 
 .header_mid {
   background-color: white;
+  line-height: 90px;
+  position: relative;
 }
+/* LEFT SIDE */
+.header_mid img {
+  padding-left: 30px;
+}
+.header_mid ul, li{
+  display: inline-block;
+}
+.header_mid ul {
+  position: absolute;
+  right: 10%;
+}
+.header_mid li, i {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
 .header_bot {
   background-color: black;
 }
