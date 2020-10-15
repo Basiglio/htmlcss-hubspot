@@ -1,0 +1,32 @@
+/* RESET SETTINGS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* CLEARFIX SETTINGS */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* HEADER */
+.header_top, .header_mid, .header_bot {
+  width: 100%;
+  height: 100px;
+}
+.header_top {
+  background-color: black;
+}
+.header_mid {
+  background-color: tomato;
+}
+.header_bot {
+  background-color: black;
+}
+.header_jumbo {
+  width: 100%;
+  height: 695px;
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+}
