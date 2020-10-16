@@ -105,16 +105,15 @@ a:hover{
 }
 .header_nav li{
   display: inline-block;
+  margin-left: 30px;
+  font-size: 20px;
+  line-height: 100px;
 }
 .header_nav ul {
   position: absolute;
   right: 10%;
   cursor: pointer;
   display: inline-block;
-}
-.header_nav li, i{
-  margin-left: 30px;
-  font-size: 20px;
 }
 /* JUMBOTRON */
 .header_jumbo {
@@ -154,8 +153,6 @@ div.text_jumbo input{
 /* SECTION DEFAULT SETTINGS */
 section {
   background-color: #f3f4f1;
-  /* height: 1000px; */
-  margin-bottom: 20px;
 }
 /* ORIZONTAL SECTION */
 section.orizontal_div .div1 {
@@ -240,7 +237,7 @@ section.orizontal_div .div2 {
   padding-left: 10px;
   display: inline-block;;
 }
-.fas.fa-check-circle {
+.fa-check-circle {
   color: #fd7b5a;
 }
 
@@ -250,13 +247,12 @@ section.orizontal_div .div2 {
 /* VERTICAL SECTION */
 .vertical_div {
   width: 100%;
-  height: 1000px;
   background-color: #f3f4f1;
 }
 /* LEFT COLUMN */
 .div3 {
   width: 23%;
-  height: 600px;
+  height: 800px;
   background-color: white;;
   float: left;
   margin-right: 15%;
@@ -293,7 +289,6 @@ section.orizontal_div .div2 {
   top: 50%;
 }
 .div3 > ul {
-  text-align: center;
   position: relative;
   top: 55%;
   list-style: none;
@@ -304,10 +299,14 @@ section.orizontal_div .div2 {
   bottom: 5%;
   left: 25%;
 }
+ .div3 ul > li > i {
+   padding-right: 40px;
+   padding-left: 40px;
+ }
 /* CENTRAL COLUMN */
 .div4 {
   width: 23%;
-  height: 600px;
+  height: 800px;
   background-color: white;
   float: left;
   margin-right: 15%;
@@ -344,7 +343,6 @@ section.orizontal_div .div2 {
   top: 50%;
 }
 .div4 > ul {
-  text-align: center;
   position: relative;
   top: 55%;
   list-style: none;
@@ -355,10 +353,14 @@ section.orizontal_div .div2 {
   bottom: 5%;
   left: 25%;
 }
+.div4 ul > li > i {
+  padding-right: 40px;
+  padding-left: 40px;
+}
 /* RIGHT COLUMN */
 .div5 {
   width: 23%;
-  height: 600px;
+  height: 800px;
   background-color: white;
   float: left;
   margin-top: 5%;
@@ -401,7 +403,6 @@ section.orizontal_div .div2 {
   top: 50%;
 }
 .div5 > ul {
-  text-align: center;
   position: relative;
   top: 55%;
   list-style: none;
@@ -412,14 +413,91 @@ section.orizontal_div .div2 {
   bottom: 5%;
   left: 25%;
 }
-
-
-/* BLUE DIV */
-/* .blue_div {
-  width: 100%;
-  height: 695px;
-  background-color: blue;
+.div5 ul > li > i {
+  padding-right: 40px;
+  padding-left: 40px;
 }
+
+/*BLUE DIV */
+.blue_div {
+  width: 100%;
+  height: 1000px;
+  background-color: #10afaf;
+  margin-top: 5%;
+}
+.blue_div_text {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+.blue_div_text > p {
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+/* TABLE */
+.blue_div_table {
+  width: 1350px;
+  height: 400px;
+  position: relative;
+}
+.table1, .table2, .table3, .table4, .table5, .table6, .table7, .table8 {
+  width: 325px;
+  height: 200px;
+  display: inline-block;
+  box-sizing: content-box;
+  margin: 0%;
+}
+.table1 {
+
+}
+.table2 {
+
+}
+.table3 {
+
+}
+.table4 {
+
+}
+.table5 {
+
+}
+.table6 {
+
+}
+.table7 {
+
+}
+.table8 {
+
+}
+.vertical_rule {
+ display: inline-block;
+
+}
+
+.blue_div_table > hr {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.vertical_rule1 {
+  position: absolute;
+  left: 325px;
+}
+.vertical_rule2 {
+  position: absolute;
+  left: 650px;
+}
+.vertical_rule3 {
+  position: absolute;
+  left: 975px;
+}
+
+
+
 /* WHITE DIV */
 /* .white_div {
   width: 100%;
