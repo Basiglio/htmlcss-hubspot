@@ -33,18 +33,20 @@ a:hover{
   height: 90px;
   }
 /* HEADER TOP */
-/* LEFT SIDE */
 .header_top {
   background-color: #f3f4f1;
   border-bottom: 2px solid black;
   line-height: 90px;
   position: relative;
-
+}
+/* LEFT SIDE */
+#scrollbar_left_side {
+  display: inline-block;
 }
 .scrollbar h3{
   display: inline-block;
 }
-span .fas.fa-chevron-down{
+#scrollbar_left_side :last-child{
   border-right: 1px solid black;
   padding-right: 30px;
   margin-right: 30px;
@@ -178,7 +180,7 @@ section.orizontal_div .div2 {
   border-radius: 2px;
   position: relative;
 }
-.div_left img {
+.div2_left img {
   width: 20%;
 }
 .learn_more {
@@ -191,23 +193,23 @@ section.orizontal_div .div2 {
   border: none;
   cursor: pointer;
 }
-.div_left {
+.div2_left {
   width: 25%;
   float: left;
   position: absolute;
   left: 10%;
   top: 25%;
 }
-.div_right {
+.div2_right {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.div_right h3{
+.div2_right h3{
   padding-bottom: 40px;
 }
-.div_right h4 {
+.div2_right h4 {
   padding-top: 30px
 }
 
