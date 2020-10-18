@@ -186,11 +186,8 @@ section.orizontal_div .div1 {
   transform: translate(-50%, -80%);
 }
 .div_1_text h2 {
-  font-size: 40px;
-  padding-bottom: 60px;
-}
-.div_1_text p {
-  font-size: 20px;
+  font-size: 30px;
+  padding-bottom: 40px;
 }
 /* ORIZONTAL DIV NUMBER 2 */
 section.orizontal_div .div2 {
@@ -202,8 +199,7 @@ section.orizontal_div .div2 {
   position: relative;
 }
 .div2_left img {
-  width: 40%;
-  padding-bottom: 20px;
+  width: 150px;
 }
 .learn_more {
   font-size: 10px;
@@ -217,16 +213,15 @@ section.orizontal_div .div2 {
 }
 .div2_left {
   width: 25%;
-  float: left;
-  position: absolute;
+  position: relative;
   left: 10%;
-  top: 25%;
+  top: 20%;
 }
 .div2_right {
   position: absolute;
-  left: 50%;
+  left: 60%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-60%, -50%);
 }
 .div2_right h3{
   padding-bottom: 40px;
@@ -247,10 +242,6 @@ section.orizontal_div .div2 {
 .fa-check-circle {
   color: #fd7b5a;
 }
-
-
-
-
 /* VERTICAL SECTION */
 .vertical_div {
   width: 100%;
@@ -424,11 +415,10 @@ section.orizontal_div .div2 {
   padding-right: 40px;
   padding-left: 40px;
 }
-
-/*BLUE DIV */
+/*BLUE DIV TABLE*/
 .blue_div {
   width: 100%;
-  height: 800px;
+  height: 900px;
   background-color: #10afaf;
   margin-top: 5%;
 }
@@ -442,39 +432,12 @@ section.orizontal_div .div2 {
  padding-bottom: 50px;
 }
 /* TABLE */
-.blue_div_table {
-  width: 1350px;
+ .blue_div_rule {
+  width: 100%;
   height: 400px;
-  position: relative;
+  position: absolute;
 }
-.table1, .table2, .table3, .table4, .table5, .table6, .table7, .table8 {
-  width: 325px;
-  height: 200px;
-  display: inline-block;
-  box-sizing: content-box;
-  margin: 0%;
-}
-.table1 {
-}
-.table2 {
-}
-.table3 {
-}
-.table4 {
-}
-.table5 {
-}
-.table6 {
-}
-.table7 {
-}
-.table8 {
-}
-.vertical_rule {
- display: inline-block;
-}
-
-.blue_div_table > hr {
+.blue_div_rule > hr {
   width: 100%;
   position: absolute;
   left: 50%;
@@ -483,16 +446,46 @@ section.orizontal_div .div2 {
 }
 .vertical_rule1 {
   position: absolute;
-  left: 325px;
+  left: 30%;
 }
 .vertical_rule2 {
   position: absolute;
-  left: 650px;
+  left: 50%;
 }
 .vertical_rule3 {
   position: absolute;
-  left: 975px;
+  left: 70%;
 }
+#horizontal_rule {
+  width: 80%;
+}
+/* TABLE CONTENT */
+/* .table1, .table2, .table3, .table4, .table5, .table6, .table7, .table8 {
+  width: 325px;
+  height: 200px;
+  display: inline-block;
+  /* border: 1px solid black; */
+}
+/* .table1 {
+  margin-left: 10%;
+  position: relative;
+}
+
+.table1 h3 {
+  text-align: center;
+}
+.table1 h5 {
+  text-align: center;
+}
+.table1 img {
+  position: relative;
+  top: 5%;
+  left: 40%;
+}
+.table5 {
+  margin-left: 10%;
+} */
+
 /* WHITE DIV */
 .white_div {
   width: 100%;
@@ -575,8 +568,8 @@ section.orizontal_div .div2 {
   color: white;
 }
 .big_table td {
-  padding-left: 110px;
-  padding-bottom: 30px;
+  padding-right: 90px;
+  padding-bottom: 20px;
 }
 #first_raw {
   font-size: 20px;
@@ -593,7 +586,8 @@ section.orizontal_div .div2 {
   width: 20%;
   height: 100px;
   float: right;
-  text-align: right;
+  text-align: left;
+  margin-right: 50px;
 }
 .social_hub a {
   background-color: lightgrey;
