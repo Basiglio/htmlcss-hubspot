@@ -34,6 +34,9 @@ a:hover{
 .pointer:hover {
   text-decoration: underline;
 }
+#pointer_2, #pointer_3, #pointer_4, #pointer_5,#pointer_6, #pointer_7, #pointer_8  {
+  cursor: pointer;
+}
 /* HEADER */
 .header_top, .header_mid, .header_bot {
   width: 100%;
