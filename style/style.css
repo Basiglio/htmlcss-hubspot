@@ -460,32 +460,45 @@ section.orizontal_div .div2 {
   width: 80%;
 }
 /* TABLE CONTENT */
-/* .table1, .table2, .table3, .table4, .table5, .table6, .table7, .table8 {
-  width: 325px;
-  height: 200px;
+.table1, .table2, .table3, .table4, .table5, .table6, .table7, .table8 {
+  /* width: 325px;
+  height: 200px; */
   display: inline-block;
-  /* border: 1px solid black; */
-}
-/* .table1 {
-  margin-left: 10%;
-  position: relative;
-}
-
-.table1 h3 {
+  position: absolute;
   text-align: center;
 }
-.table1 h5 {
-  text-align: center;
+.table1 {
+ left: 15%;
+ top: 15%;
 }
-.table1 img {
-  position: relative;
-  top: 5%;
-  left: 40%;
+.table2 {
+  left: 35%;
+  top: 15%;
+}
+.table3 {
+  left: 55%;
+  top: 15%;
+}
+.table4 {
+  left: 75%;
+  top: 15%;
 }
 .table5 {
-  margin-left: 10%;
-} */
-
+  left: 15%;
+  top: 60%;
+}
+.table6 {
+  left: 35%;
+  top: 60%;
+}
+.table7 {
+  left: 55%;
+  top: 60%;
+}
+.table8 {
+  left: 75%;
+  top: 60%;
+}
 /* WHITE DIV */
 .white_div {
   width: 100%;
