@@ -249,7 +249,7 @@ section.orizontal_div .div2 {
 }
 /* LEFT COLUMN */
 .div3 {
-  width: 23%;
+  width: 311px;
   height: 800px;
   background-color: white;;
   float: left;
@@ -303,7 +303,7 @@ section.orizontal_div .div2 {
  }
 /* CENTRAL COLUMN */
 .div4 {
-  width: 23%;
+  width: 311px;
   height: 800px;
   background-color: white;
   float: left;
@@ -357,7 +357,7 @@ section.orizontal_div .div2 {
 }
 /* RIGHT COLUMN */
 .div5 {
-  width: 23%;
+  width: 311px;
   height: 800px;
   background-color: white;
   float: left;
@@ -418,7 +418,7 @@ section.orizontal_div .div2 {
 /*BLUE DIV TABLE*/
 .blue_div {
   width: 100%;
-  height: 900px;
+  height: 750px;
   background-color: #10afaf;
   margin-top: 5%;
 }
@@ -461,43 +461,84 @@ section.orizontal_div .div2 {
 }
 /* TABLE CONTENT */
 .table1, .table2, .table3, .table4, .table5, .table6, .table7, .table8 {
-  /* width: 325px;
-  height: 200px; */
+  width: 270px;
+  height: 191px;
   display: inline-block;
   position: absolute;
   text-align: center;
+  color: white;
 }
+
 .table1 {
- left: 15%;
- top: 15%;
+ left: 12%;
+ top: 4%;
+}
+.table1 h3 {
+  font-size: 40px;
+  padding: 20px;
 }
 .table2 {
-  left: 35%;
-  top: 15%;
+  left: 32%;
+  top: 4%;
+}
+.table2 h3 {
+  font-size: 40px;
+  padding: 20px;
 }
 .table3 {
-  left: 55%;
-  top: 15%;
+  left: 52%;
+  top: 4%;
+}
+.table3 h3 {
+  font-size: 40px;
+  padding: 20px;
 }
 .table4 {
-  left: 75%;
-  top: 15%;
+  left: 72%;
+  top: 4%;
+}
+.table4 h3 {
+  font-size: 40px;
+  padding: 20px;
 }
 .table5 {
-  left: 15%;
-  top: 60%;
+  padding-top: 20px;
+  left: 12%;
+  bottom: 0%
+}
+.table5 h3 {
+  font-size: 40px;
+  padding: 20px;
+}
+.table5 img {
+  width: 180px;
 }
 .table6 {
-  left: 35%;
-  top: 60%;
+  padding-top: 20px;
+  left: 32%;
+  bottom: 0%
+}
+.table6 h3 {
+  font-size: 40px;
+  padding: 20px;
 }
 .table7 {
-  left: 55%;
-  top: 60%;
+  padding-top: 20px;
+  left: 52%;
+  bottom: 0%
+}
+.table7 h3 {
+  font-size: 40px;
+  padding: 20px;
 }
 .table8 {
-  left: 75%;
-  top: 60%;
+  padding-top: 20px;
+  left: 72%;
+  bottom: 0%
+}
+.table8 h3 {
+  font-size: 40px;
+  padding: 20px;
 }
 /* WHITE DIV */
 .white_div {
